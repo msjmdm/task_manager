@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="task.css" />
+    <title>Task manager</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Task Manager</h1>
+      <input type="text" placeholder="Enter your task..." class="task" /><br />
+
+      <button class="btn" onclick="addtask()">Add Task</button>
+      <ul class="collection" onclick="deletetask()"></ul>
+      <button id="clear-task" onclick="cleartask()">Clear All Tasks</button>
+
+      <!--<div id="select-el">
+  <select>
+    <label>select task status:</label>
+      <option value="All">All</option>
+      <option value="Completed">Completed</option>
+      <option value="Pending">Pending</option>
+    </select>-->
+    </div>
+    <script src="task.js"></script>
+  </body>
+</html>
